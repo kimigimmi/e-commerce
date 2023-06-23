@@ -5,7 +5,7 @@
        @elektroniklistVisible="handleElektronikListVisibility">
     </the-header>
 
-    <transition name="slide-down">
+    <transition name="slide">
     <div class="categori" v-if="isModaListVisible">          <!--buraya Animasyon vercez-->
       <div class="titles">
         <p>Kadin</p>
@@ -29,7 +29,7 @@
     </div>
     </transition>
 
-    <transition name="slide-down">
+    <transition name="slide">
     <div class="categori" v-if="isElektronikListVisible">
       <div class="titles">
         <p>Bilgisayar</p>
@@ -228,31 +228,19 @@ a:hover {
 }
 
 
-
-.slide-down-enter-from {
-   opacity: 0;
+.slide-enter-active,
+.slide-leave-active {
+  transition: max-height 0.5s ease-in-out;
 }
 
-.slide-down-enter-active {
-  transition: opacity 1s ease-out;
+.slide-enter-to,
+.slide-leave-from {
+  max-height: 100px;
 }
 
-
-.slide-down-enter-to {
-  opacity: 1;
-}
-
-
-.slide-down-leave-from {
-  opacity: 1;
-}
-
-.slide-down-leave-active {
-  transition: opacity 1s ease-in;
-}
-
-.slide-down-leave-to {
-  opacity: 0;
+.slide-enter-from,
+.slide-leave-to { 
+  max-height: 0;
 }
 
 
