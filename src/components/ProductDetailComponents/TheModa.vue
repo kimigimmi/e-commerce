@@ -3,7 +3,7 @@
     <div class="different-colour-products">
       <h4>Renk:</h4>
       <ul class="colourContainer subImageContainer">
-        <li v-for="colourImage in checkIfImagesRightNoEmpty" :key="colourImage">
+        <li v-for="colourImage in differentColourImagesRight" :key="colourImage">
           <img @mouseover="emitColourImage(colourImage)" :src="colourImage" alt="Colour Image">
         </li>
       </ul>
@@ -12,7 +12,7 @@
     <div class="sizes">
       <h4>Beden: {{ size }}</h4>
       <ul class="colourContainer subImageContainer">
-        <li v-for="sizeItem in checkIfSizesNoEmpty" :key="sizeItem" >
+        <li v-for="sizeItem in sizes" :key="sizeItem" >
           <CardView 
             :class="{ borderedStyle: sizeItem === size || sizeItem === activeBordered }"
             @click="changeSize(sizeItem)"
@@ -23,7 +23,6 @@
       </ul>
     </div>
 
-    <button class="addToCart-btn">Sepete Ekle</button>
 
       <div class="extra-infos">
          <h4>One Cikan Bilgiler</h4>
@@ -59,24 +58,11 @@ export default {
     },
     changeSize(sizeItem) {
       this.size = sizeItem;
+      localStorage.setItem('size', sizeItem);
     },
     changeSizeActivity(sizeItem){
       this.activeBordered = sizeItem;
     },
-    checkIfImagesRightNoEmpty(){
-      if(this.differentColourImagesRight !== undefined && this.differentColourImagesRight !== null ){
-           return this.differentColourImagesRight;
-      } else {
-        alert('Null or undefined detected');
-      }
-    },
-    checkIfSizesNoEmpty(){
-      if(this.sizes !== undefined && this.sizes !== null){
-        return this.sizes;
-      } else {
-        alert('Null or undefined detected');
-      }
-    }
   },
 };
 </script>
@@ -110,25 +96,6 @@ export default {
   height: 60px;
   border-radius: 5px;
 }
-
-
-
-.addToCart-btn {
-  width: 30rem;
-  height: 3rem;
-  background: #f27a1a;
-  font-size: 20px;
-  color: #fff;
-  border: 1px solid #f27a1a;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-.addToCart-btn:hover,
-.addToCart-btn:active {
-  background: #f09449;
-}
-
 
 ol {
   list-style-type:disc;

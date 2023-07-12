@@ -32,8 +32,8 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description:'Etnik Desen Kemerli Gömlek Mini Elbise Midi Elbise', price: '499 TL', sizes: ['S', 'M', 'L', 'XL' ]},
-             { id: 'urununadi10', img: require('./assets/elbise1.webp'),  subImages: {
+                }, description:'Etnik Desen Kemerli Gömlek Mini Elbise Midi Elbise', price: '499', sizes: ['S', 'M', 'L', 'XL' ] , size: '', count: 1, checked: true},
+             { id: 'urununadi2', img: require('./assets/elbise1.webp'),  subImages: {
                   sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
                     require('./assets/shirt_Images/sub_shirt/gomlek1.webp'),
@@ -50,8 +50,8 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] },
-             { id: 'urununadi10', img: require('./assets/elbise1.webp'),  subImages: {
+                }, description: 'ürün aciklamasi', price: '50.51', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true },
+             { id: 'urununadi3', img: require('./assets/elbise1.webp'),  subImages: {
                   sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
                     require('./assets/shirt_Images/sub_shirt/gomlek1.webp'),
@@ -68,10 +68,10 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] },
+                }, description: 'ürün aciklamasi', price: '176.12', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true},
             ],
             bluz: [
-            { id: 'urununadi10', img: require('./assets/elbise1.webp'),  subImages: {
+            { id: 'urununadi4', img: require('./assets/elbise1.webp'),  subImages: {
                   sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
                     require('./assets/shirt_Images/sub_shirt/gomlek1.webp'),
@@ -88,8 +88,8 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] },
-            { id: 'urununadi10', img: require('./assets/elbise1.webp'), subImages: {
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true },
+            { id: 'urununadi5', img: require('./assets/elbise1.webp'), subImages: {
                    sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
                     require('./assets/shirt_Images/sub_shirt/gomlek1.webp'),
@@ -106,10 +106,10 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-             }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] }
+             }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true }
             ],
              etek: [
-             { id: 'urununadi10', img: require('./assets/elbise1.webp'),  subImages: {
+             { id: 'urununadi6', img: require('./assets/elbise1.webp'),  subImages: {
                   sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
                     require('./assets/shirt_Images/sub_shirt/gomlek1.webp'),
@@ -126,8 +126,8 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] },
-             { id: 'urununadi10', img: require('./assets/elbise1.webp'),  subImages: {
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true },
+             { id: 'urununadi7', img: require('./assets/elbise1.webp'),  subImages: {
                   sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
                     require('./assets/shirt_Images/sub_shirt/gomlek1.webp'),
@@ -144,7 +144,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] }
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true }
              ]
         },  
           erkek: {
@@ -168,7 +168,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
                 },
-                description: 'outfiit man Dokulu Oversize Gömlek Siyah 70171002 MS70171 ', price: '178,74 TL', sizes: ['S', 'M', 'L', 'XL' ] },
+                description: 'outfiit man Dokulu Oversize Gömlek Siyah 70171002 MS70171 ', price: '178.74', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true },
               { id: 'urununadi9', img: require('./assets/elbise1.webp'),  subImages: {
                   sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -186,7 +186,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] }
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true }
              ],
              pantolon: [
               { id: 'urununadi10', img: require('./assets/elbise1.webp'),  subImages: {
@@ -206,7 +206,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] },
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true },
               { id: 'urununadi11', img: require('./assets/elbise1.webp'),  subImages: {
                   sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -224,7 +224,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] }
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true }
              ],
              kazak: [
              { id: 'urununadi12', img: require('./assets/elbise1.webp'),  subImages: {
@@ -244,7 +244,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] },
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true },
              { id: 'urununadi13', img: require('./assets/elbise1.webp'),  subImages: {
                   sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -262,7 +262,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] }
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true }
              ]
         },
         
@@ -285,7 +285,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] },
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true },
              { id: 'urununadi15', img: require('./assets/elbise1.webp'),  subImages: {
                   sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -303,7 +303,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] }
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true }
              ],
              topuklu: [
              { id: 'urununadi16', img: require('./assets/elbise1.webp'),  subImages: {
@@ -323,7 +323,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] },
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true },
              { id: 'urununadi17', img: require('./assets/elbise1.webp'),  subImages: {
                   sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -341,7 +341,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] }
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true }
              ],
              bot: [
              { id: 'urununadi18', img: require('./assets/elbise1.webp'),  subImages: {
@@ -361,7 +361,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] },
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true },
              { id: 'urununadi19', img: require('./assets/elbise1.webp'),  subImages: {
                   sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -379,7 +379,7 @@ export default {
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt4.webp'),
                     require('./assets/shirt_Images/different_color_shirts/colour_shirt5.webp'),
                 ]
-                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ] }
+                }, description: 'ürün aciklamasi', price: 'fiyati', sizes: ['S', 'M', 'L', 'XL' ], size: '', count: 1, checked: true }
              ]
           } 
        },
@@ -399,7 +399,7 @@ export default {
                     require('./assets/shirt_Images/sub_shirt/gomlek5.webp')
                   ]
              },
-                   description: 'HP Victus Gaming Dizüstü Bilgisayar, 15,6 inç FHD IPS 144 Hz 9 Ms, Intel Core i5-13500H, 16 GB Ram, NVIDIA GeForce RTX 4050 6 GB, 512 GB SSD, FreeDos, Mika Gümüş, 7N9V3EA', price: '24.999 TL',
+                   description: 'HP Victus Gaming Dizüstü Bilgisayar, 15,6 inç FHD IPS 144 Hz 9 Ms, Intel Core i5-13500H, 16 GB Ram, NVIDIA GeForce RTX 4050 6 GB, 512 GB SSD, FreeDos, Mika Gümüş, 7N9V3EA', price: '24999',
                    prominentDatas: {
                        'İslemci Tipi': 'Apple M1',
                        'SSD Kapasitesi': '256 GB',
@@ -407,7 +407,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } },
+              }, size: '', count: 1, checked: true },
              { id: 'urununadi21', img: require('./assets/elbise1.webp'), subImages: {
                    sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -424,7 +424,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } },
+              }, size: '', count: 1, checked: true },
              { id: 'urununadi22', img: require('./assets/elbise1.webp'), subImages: {
                    sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -441,7 +441,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              }},
+              }, size: '', count: 1, checked: true},
             ],
             masaustu: [
               { id: 'urununadi23', img: require('./assets/elbise1.webp'), subImages: {
@@ -460,7 +460,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } },
+              }, size: '', count: 1, checked: true },
               { id: 'urununadi24', img: require('./assets/elbise1.webp'), subImages: {
                    sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -477,7 +477,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } }
+              }, size: '', count: 1, checked: true }
             ],
              tablet: [
               { id: 'urununadi25', img: require('./assets/elbise1.webp'), subImages: {
@@ -496,7 +496,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } },
+              }, size: '', count: 1, checked: true },
               { id: 'urununadi26', img: require('./assets/elbise1.webp'), subImages: {
                    sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -513,7 +513,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } }
+              }, size: '', count: 1, checked: true }
              ]
         },  
           cepTelefonu: {
@@ -537,7 +537,7 @@ export default {
                       'Dahili Hafiza': '128 GB',
                       'Mobil Baglanti Hizi': '4.5G',
                       'Ekran Cinsi': 'Amolet'
-               } },
+               }, size: '', count: 1, checked: true },
               { id: 'urununadi28', img: require('./assets/elbise1.webp'), subImages: {
                    sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -554,7 +554,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } }
+              } , size: '', count: 1, checked: true}
              ],
              samsung: [
               { id: 'urununadi29', img: require('./assets/elbise1.webp'), subImages: {
@@ -573,7 +573,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } },
+              }, size: '', count: 1, checked: true },
               { id: 'urununadi30', img: require('./assets/elbise1.webp'), subImages: {
                    sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -590,7 +590,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } }
+              }, size: '', count: 1, checked: true }
              ],
              xiaomi: [
               { id: 'urununadi31', img: require('./assets/elbise1.webp'), subImages: {
@@ -609,7 +609,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } },
+              }, size: '', count: 1, checked: true },
               { id: 'urununadi32', img: require('./assets/elbise1.webp'), subImages: {
                    sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -626,7 +626,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } }
+              }, size: '', count: 1, checked: true }
              ]
         },
         
@@ -651,7 +651,7 @@ export default {
                      'Dondurucu Ozelligi': 'Low Frost',
                      'Ucretsiz Kurulum': 'Var',
                      'Buzluk Tipi': 'Standart' 
-               } },
+               }, size: '', count: 1, checked: true },
               { id: 'urununadi34', img: require('./assets/elbise1.webp'), subImages: {
                    sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -668,7 +668,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } }
+              }, size: '', count: 1, checked: true }
              ],
              firin: [
               { id: 'urununadi35', img: require('./assets/elbise1.webp'), subImages: {
@@ -687,7 +687,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } },
+              }, size: '', count: 1, checked: true },
               { id: 'urununadi36', img: require('./assets/elbise1.webp'), subImages: {
                    sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -704,7 +704,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } }
+              }, size: '', count: 1, checked: true }
              ],
              camasirMakinesi: [
               { id: 'urununadi37', img: require('./assets/elbise1.webp'), subImages: {
@@ -723,7 +723,7 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } },
+              }, size: '', count: 1, checked: true },
               { id: 'urununadi38', img: require('./assets/elbise1.webp'), subImages: {
                    sub_images_left: [
                     require('./assets/shirt_Images/sub_shirt/ana-gomlek.webp'), 
@@ -740,13 +740,12 @@ export default {
                        'Ram Sistem Bellegi': '16 GB',
                        'İsletim Tipi': 'Mac Os',
                        'Garanti Tipi': 'Resmi Distributor....'
-              } }
+              }, size: '', count: 1, checked: true }
              ]
           } 
        }
   }
 },
-
   provide() {
     return {
       moda: this.moda,
